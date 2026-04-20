@@ -6,3 +6,6 @@ py -m pip install requirements.txt <br>
 **Open Dashboard** <br>
 cd dashboard <br>
 py -m streamlit run dashboard.py <br>
+
+Run Streamlit App <br>
+https://dziarur-analis-fundamental-data-dashboarddashboard-dcnpwz.streamlit.app/
