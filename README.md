@@ -1,8 +1,8 @@
-**Setup Envinroment Terminal**
-cd Anali-Fundamental-Data-main
-py -m venv venv
-py -m pip install requirements.txt
+**Setup Envinroment Terminal** <br>
+cd Anali-Fundamental-Data-main <br>
+py -m venv venv <br>
+py -m pip install requirements.txt <br>
 
-**Open Dashboard**
-cd dashboard
-py -m streamlit run dashboard.py
+**Open Dashboard** <br>
+cd dashboard <br>
+py -m streamlit run dashboard.py <br>
