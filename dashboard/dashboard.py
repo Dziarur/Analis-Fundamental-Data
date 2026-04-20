@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="E-Commerce Dashboard", layout="wide")
 
 def load_data():
-    df = pd.read_csv("D:\Coding Camp\Submission\Analis-Fundamental-Data\dashboard\\all_data.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/Dziarur/Analis-Fundamental-Data/refs/heads/main/dashboard/all_data.csv")
     return df
 
 df = load_data()
