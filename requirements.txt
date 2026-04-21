@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 pandas==3.0.2
 matplotlib==3.10.8
-streamlit==1.56.0
-=======
-pandas==3.0.2
 matplotlib==3.10.8
 streamlit==1.56.0
->>>>>>> 7752239c633f5d9da377dd101922c33ca0200621
 seaborn==0.13.2
