@@ -1,1 +1,1 @@
-https://dziarur-analis-fundamental-data-dashboarddashboard-dcnpwz.streamlit.app/
+https://projek-dashboard.streamlit.app/
