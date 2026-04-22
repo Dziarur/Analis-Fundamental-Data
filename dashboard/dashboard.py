@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 st.set_page_config(page_title="E-Commerce Dashboard", layout="wide")
 
@@ -11,7 +10,6 @@ def load_data():
     return df
 
 df = load_data()
-
 
 df['product_category_name'] = df['product_category_name'].fillna('Unknown')
 
@@ -31,6 +29,17 @@ rating_filter = st.sidebar.slider(
     min_value=int(df['review_score'].min()),
     max_value=int(df['review_score'].max()),
     value=(int(df['review_score'].min()), int(df['review_score'].max()))
+)
+
+# Filter Waktu
+df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'])
+df['year'] = df['order_purchase_timestamp'].dt.year
+
+tahun = st.sidebar.slider(
+    "Pilih Rentang Tahun",
+    int(df['year'].min()),
+    int(df['year'].max()),
+    (2016, 2018)
 )
 
 # Apply filter
