@@ -116,16 +116,15 @@ st.pyplot(fig4)
 st.header("Kesimpulan")
 st.write(
     """
-Conclution pertanyaan 1
-Berdasarkan hasil analisis eksploratif, distribusi jumlah pembelian menunjukkan bahwa sebagian besar pelanggan hanya melakukan satu kali transaksi. Hal ini didukung oleh nilai repeat order rate yang relatif rendah, yang mengindikasikan bahwa tingkat loyalitas pelanggan masih belum optimal.
+- Conclution pertanyaan 1
 
-Visualisasi histogram memperlihatkan dominasi pelanggan dengan satu kali pembelian, sementara boxplot menunjukkan adanya sejumlah kecil pelanggan dengan frekuensi pembelian tinggi sebagai outlier. Dengan demikian, dapat disimpulkan bahwa mayoritas pelanggan belum melakukan pembelian ulang secara konsisten.
+Sebagian besar pelanggan hanya melakukan satu kali pembelian, yang ditunjukkan oleh distribusi jumlah order yang didominasi oleh nilai satu. Nilai repeat order rate yang relatif rendah mengindikasikan bahwa tingkat loyalitas pelanggan masih belum optimal.
 
-Conclution pertanyaan 2
-Berdasarkan hasil analisis, rata-rata rating produk menunjukkan nilai yang relatif tinggi, yang mengindikasikan bahwa secara umum pelanggan merasa puas terhadap produk yang dibeli.
+Meskipun terdapat beberapa pelanggan dengan frekuensi pembelian tinggi (outlier), jumlahnya sangat kecil dibandingkan keseluruhan pelanggan. Hal ini menunjukkan bahwa bisnis masih memiliki peluang besar untuk meningkatkan retensi pelanggan.
+- Conclution pertanyaan 2
 
-Visualisasi histogram menunjukkan bahwa sebagian besar rating berada pada nilai tinggi, sedangkan boxplot mengindikasikan bahwa sebaran rating cukup terkonsentrasi tanpa banyak outlier ekstrem. Namun, analisis lebih lanjut pada tingkat kategori produk menunjukkan adanya variasi rating antar kategori, di mana beberapa kategori memiliki nilai lebih rendah dibandingkan yang lain.
+Rata-rata rating produk berada pada tingkat yang cukup tinggi, yang menunjukkan bahwa secara umum pelanggan merasa puas terhadap produk yang dibeli. Distribusi rating juga cenderung terkonsentrasi pada nilai tinggi.
 
-Hal ini menunjukkan bahwa meskipun kepuasan pelanggan secara keseluruhan baik, masih terdapat peluang perbaikan pada kategori produk tertentu.
+Namun, terdapat variasi rating antar kategori produk, di mana beberapa kategori memiliki nilai yang lebih rendah dibandingkan yang lain. Hal ini mengindikasikan adanya ketidakkonsistenan kualitas produk atau layanan pada kategori tertentu yang perlu diperhatikan.
 """
 )
